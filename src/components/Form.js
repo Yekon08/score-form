@@ -67,17 +67,17 @@ const QuestionList = ({ data, register, part }) => {
               <input
                 type="text"
                 id={questionData.id}
-                className="rounded-md bg-mainContent px-3 py-2 outline-none focus:border-blueLogo border border-lightGray max-w-[60%]"
+                className="rounded-md bg-mainContent px-3 py-2 outline-none focus:border-blueLogo border border-lightGray w-full sm:max-w-[60%]"
                 {...register(`${part}.${questionData.question}`, {
                   required: true,
                 })}
               />
             </div>
           ) : (
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-col mb-5 sm:flex-row items-center">
               <p
                 htmlFor={questionData.question}
-                className="text-sm font-medium"
+                className="text-sm font-medium mb-5 sm:mb-0"
               >
                 {questionData.question}
               </p>

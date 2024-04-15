@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .bgMain {
-  background: url("./images/Background.svg");
+  background: url("./images/Background.svg") fixed;
   background-size: cover;
 }

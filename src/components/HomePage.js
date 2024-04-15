@@ -28,7 +28,7 @@ const HomePage = () => {
   const questionDataLength = Object.keys(questionData).length;
 
   return (
-    <div className="w-full h-auto bg-mainContent rounded-md color-white">
+    <div className="w-10/12 mx-auto sm:w-full h-auto bg-mainContent rounded-md color-white">
       {handleRender()}
       <div
         className={`w-full bg-mainActionBtn px-6 py-3 rounded-b-md flex ${
