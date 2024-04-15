@@ -2,6 +2,7 @@
 import { handleSendMail } from "@/utils";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 import questionData from "../questions.json";
 
 const Form = ({ step }) => {
@@ -19,7 +20,7 @@ const Form = ({ step }) => {
   // TODO: do it better
   useEffect(() => {
     if (Object.keys(errors).length !== 0) {
-      alert("Tous les champs sont requis");
+      toast("Tous les champs sont requis");
     }
   }, [errors, clearErrors]);
 

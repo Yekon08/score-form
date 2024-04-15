@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export const handleSendMail = (data) => {
   const filteredData = () => {
     const newData = {};
@@ -12,15 +14,14 @@ export const handleSendMail = (data) => {
   const bodyData = {
     data: filteredData(),
   };
+
   fetch("/api/email", {
     method: "POST",
     body: JSON.stringify(bodyData),
   })
     .then((res) => res.json())
     .then((response) => {
-      alert(response.message);
-    })
-    .catch((err) => {
-      alert(err);
+      if ("message" in response) toast.success(response.message);
+      toast.error(response.error);
     });
 };
