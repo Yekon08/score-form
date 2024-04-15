@@ -109,5 +109,32 @@
       "question": "Avez-vous des troubles cutanés et/ou avez-vous la peau et/ou la paume des mains et/ou la voûte plantaire orangée ?",
       "isAnOpenQuestion": false
     }
+  ],
+  "Vitamine D": [
+    {
+      "id": 22,
+      "question": "Consommez-vous peu ou pas de foie de morue et/ou d abats (moins de 2 fois par mois) ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 23,
+      "question": "Êtes-vous en surpoids ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 24,
+      "question": "Vous exposez-vous peu au soleil utilisez-vous chaque jour un écran total avez-vous la peau noire ou êtes-vous intégralement couvert(e) ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 25,
+      "question": "Prenez-vous ou avez-vous pris des corticoïdes sur une longue période ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 26,
+      "question": "Avez-vous fait une analyse biologique et êtes-vous en déficit de vitamine D ?",
+      "isAnOpenQuestion": false
+    }
   ]
 }
