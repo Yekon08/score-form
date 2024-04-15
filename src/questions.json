@@ -1,35 +1,112 @@
 {
-  "Première partie": [
+  "Relevé informations": [
     {
       "id": 1,
-      "question": "name",
+      "question": "Nom",
       "isAnOpenQuestion": true
     },
     {
       "id": 2,
-      "question": "email",
+      "question": "Prénom",
       "isAnOpenQuestion": true
     },
     {
       "id": 3,
-      "question": "adresse",
+      "question": "Date de naissance",
       "isAnOpenQuestion": true
-    }
-  ],
-  "Seconde partie": [
+    },
     {
       "id": 4,
-      "question": "question one part 2",
-      "isAnOpenQuestion": false
+      "question": "Mail",
+      "isAnOpenQuestion": true
     },
     {
       "id": 5,
-      "question": "question two part 2",
-      "isAnOpenQuestion": false
+      "question": "Téléphone",
+      "isAnOpenQuestion": true
     },
     {
       "id": 6,
-      "question": "question three part 2",
+      "question": "Objectifs et attente de ce test",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 7,
+      "question": "Maladie chronique",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 8,
+      "question": "Tabac",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Note de 1 à 10 (1 = faible peu ou non et 10 : intense beaucoup ou oui)": [
+    {
+      "id": 9,
+      "question": "Activités physiques",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 10,
+      "question": "Temps passé dehors",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 11,
+      "question": "Fatigue",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 12,
+      "question": "État d esprit (moral)",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 13,
+      "question": "Situation éprouvante",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 14,
+      "question": "Équilibre alimentaire",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 15,
+      "question": "Antécédents familiaux",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 16,
+      "question": "Médicaments pris au long cours ou de façon répétée",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 17,
+      "question": "Compléments alimentaires",
+      "isAnOpenQuestion": true
+    }
+  ],
+  "Vitamine A": [
+    {
+      "id": 18,
+      "question": "Consommez-vous peu ou pas de foie de morue et/ou d abats (moins de 2 fois par mois) ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 19,
+      "question": "Consommez-vous peu ou pas de produits laitiers (dont le beurre) et/ou d œufs (moins de 3 fois par semaine) ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 20,
+      "question": "Avez-vous des troubles de la vision nocturne ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 21,
+      "question": "Avez-vous des troubles cutanés et/ou avez-vous la peau et/ou la paume des mains et/ou la voûte plantaire orangée ?",
       "isAnOpenQuestion": false
     }
   ]

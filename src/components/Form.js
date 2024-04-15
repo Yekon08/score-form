@@ -82,8 +82,8 @@ const QuestionList = ({ data, register, part }) => {
               >
                 {questionData.question}
               </p>
-              <div className="flex">
-                <div>
+              <div className="flex sm:ml-4">
+                <div className="flex items-center">
                   <input
                     type="radio"
                     id={`${questionData.id}-yes`}
@@ -100,7 +100,7 @@ const QuestionList = ({ data, register, part }) => {
                     Oui
                   </label>
                 </div>
-                <div>
+                <div className="flex items-center">
                   <input
                     type="radio"
                     id={`${questionData.id}-no`}

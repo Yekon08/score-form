@@ -19,7 +19,7 @@ module.exports = {
         lightGray: "rgba(255, 255, 255, 0.10)",
         blueLogo: "#0578FF",
       },
-      height: { main: "calc(100vh - 164px)" },
+      minHeight: { main: "calc(100vh - 164px)" },
     },
   },
   plugins: [],
