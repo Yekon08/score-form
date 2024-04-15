@@ -2,7 +2,20 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request) {
-  const { name, message } = await request.json();
+  const { data } = await request.json();
+
+  const handleTemplateRender = () => {
+    let html = "";
+    for (const part in data) {
+      html += `<h3>${part} (${Object.keys(data[part]).length}):</h3>`;
+      for (const question in data[part]) {
+        html += `<p>- ${question}: ${data[part][question]}</p>`;
+      }
+    }
+    return html;
+  };
+
+  handleTemplateRender();
 
   const transport = nodemailer.createTransport({
     service: "gmail",
@@ -15,9 +28,8 @@ export async function POST(request) {
   const mailOptions = {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
-    // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject: `Message de ${name}`,
-    text: message,
+    subject: `Message de ${data[Object.keys(data)[0]]["name"]}`,
+    html: handleTemplateRender(),
   };
 
   const sendMailPromise = () =>

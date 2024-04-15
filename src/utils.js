@@ -1,7 +1,16 @@
 export const handleSendMail = (data) => {
+  const filteredData = () => {
+    const newData = {};
+    for (const part in data) {
+      newData[part] = Object.fromEntries(
+        Object.entries(data[part]).filter(([_, valeur]) => valeur !== "non")
+      );
+    }
+    return newData;
+  };
+
   const bodyData = {
-    name: data["1"],
-    message: "test d'envoie de mail",
+    data: filteredData(),
   };
   fetch("/api/email", {
     method: "POST",

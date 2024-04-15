@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import questionData from "../questions.json";
 
-const Form = ({ step, setStep }) => {
+const Form = ({ step }) => {
   const {
     register,
     handleSubmit,
@@ -13,7 +13,6 @@ const Form = ({ step, setStep }) => {
   } = useForm({ mode: "onSubmit", reValidateMode: "onSubmit" });
 
   const handleFormSubmit = (data) => {
-    console.log("data: ", data);
     handleSendMail(data);
   };
 
@@ -23,6 +22,8 @@ const Form = ({ step, setStep }) => {
       alert("Tous les champs sont requis");
     }
   }, [errors, clearErrors]);
+
+  const questionDataLength = Object.keys(questionData).length;
 
   return (
     <form onSubmit={handleSubmit(handleFormSubmit)} className="text-white px-6">
@@ -34,14 +35,23 @@ const Form = ({ step, setStep }) => {
           <QuestionList
             data={questionData[Object.keys(questionData)[step - 1]]}
             register={register}
+            part={Object.keys(questionData)[step - 1]}
           />
+          {step === questionDataLength && (
+            <button
+              className="bg-blueLogo py-2 px-4 rounded-md font-medium text-white text-center block mx-auto mt-8 uppercase"
+              type="submit"
+            >
+              Envoyer ses résultats
+            </button>
+          )}
         </div>
       }
     </form>
   );
 };
 
-const QuestionList = ({ data, register }) => {
+const QuestionList = ({ data, register, part }) => {
   return (
     <div className="flex flex-col gap-6">
       {data.map((questionData) => (
@@ -58,7 +68,9 @@ const QuestionList = ({ data, register }) => {
                 type="text"
                 id={questionData.id}
                 className="rounded-md bg-mainContent px-3 py-2 outline-none focus:border-blueLogo border border-lightGray max-w-[60%]"
-                {...register(questionData.id.toString(), { required: true })}
+                {...register(`${part}.${questionData.question}`, {
+                  required: true,
+                })}
               />
             </div>
           ) : (
@@ -75,8 +87,8 @@ const QuestionList = ({ data, register }) => {
                     type="radio"
                     id={`${questionData.id}-yes`}
                     name={`${questionData.id}-answer`}
-                    value="yes"
-                    {...register(questionData.id.toString(), {
+                    value="oui"
+                    {...register(`${part}.${questionData.question}`, {
                       required: true,
                     })}
                   />
@@ -92,8 +104,8 @@ const QuestionList = ({ data, register }) => {
                     type="radio"
                     id={`${questionData.id}-no`}
                     name={`${questionData.id}-answer`}
-                    value="no"
-                    {...register(questionData.id.toString(), {
+                    value="non"
+                    {...register(`${part}.${questionData.question}`, {
                       required: true,
                     })}
                   />
