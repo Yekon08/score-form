@@ -1,18 +1,28 @@
 import { toast } from "react-toastify";
+import questionData from "../src/questions.json";
 
 export const handleSendMail = (data) => {
-  const filteredData = () => {
-    const newData = {};
-    for (const part in data) {
-      newData[part] = Object.fromEntries(
-        Object.entries(data[part]).filter(([_, valeur]) => valeur !== "non")
+  const processData = () => {
+    const processedData = {};
+
+    for (const part in questionData) {
+      const filteredQuestions = questionData[part].filter((question) => {
+        const answer = data[question.id.toString()];
+        return answer !== "non" && answer !== "" && answer !== null;
+      });
+      processedData[part] = Object.fromEntries(
+        filteredQuestions.map((question) => [
+          question.question,
+          data[question.id.toString()],
+        ])
       );
     }
-    return newData;
+
+    return processedData;
   };
 
   const bodyData = {
-    data: filteredData(),
+    data: processData(),
   };
 
   fetch("/api/email", {

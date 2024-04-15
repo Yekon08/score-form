@@ -7,9 +7,12 @@ export async function POST(request) {
   const handleTemplateRender = () => {
     let html = "";
     for (const part in data) {
-      html += `<h3>${part} (${Object.keys(data[part]).length}):</h3>`;
-      for (const question in data[part]) {
-        html += `<p>- ${question}: ${data[part][question]}</p>`;
+      const partlength = Object.keys(data[part]).length;
+      if (partlength > 0) {
+        html += `<h3>${part} (${partlength}):</h3>`;
+        for (const question in data[part]) {
+          html += `<p>- ${question}: ${data[part][question]}</p>`;
+        }
       }
     }
     return html;
@@ -28,7 +31,7 @@ export async function POST(request) {
   const mailOptions = {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
-    subject: `Message de ${data[Object.keys(data)[0]]["name"]}`,
+    subject: `Message de ${Object.keys(data)[0][0]} ${Object.keys(data)[0][1]}`,
     html: handleTemplateRender(),
   };
 
@@ -47,7 +50,6 @@ export async function POST(request) {
     await sendMailPromise();
     return NextResponse.json({ message: "Email envoyé" });
   } catch (err) {
-    console.log("error: ", err);
     return NextResponse.json({ error: err }, { status: 500 });
   }
 }

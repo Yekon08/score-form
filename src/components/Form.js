@@ -69,9 +69,7 @@ const QuestionList = ({ data, register, part }) => {
                 type="text"
                 id={questionData.id}
                 className="rounded-md bg-mainContent px-3 py-2 outline-none focus:border-blueLogo border border-lightGray w-full sm:max-w-[60%]"
-                {...register(`${part}.${questionData.question}`, {
-                  required: true,
-                })}
+                {...register(questionData.id.toString())}
               />
             </div>
           ) : (
@@ -89,9 +87,7 @@ const QuestionList = ({ data, register, part }) => {
                     id={`${questionData.id}-yes`}
                     name={`${questionData.id}-answer`}
                     value="oui"
-                    {...register(`${part}.${questionData.question}`, {
-                      required: true,
-                    })}
+                    {...register(questionData.id.toString())}
                   />
                   <label
                     htmlFor={`${questionData.id}-yes`}
@@ -106,9 +102,7 @@ const QuestionList = ({ data, register, part }) => {
                     id={`${questionData.id}-no`}
                     name={`${questionData.id}-answer`}
                     value="non"
-                    {...register(`${part}.${questionData.question}`, {
-                      required: true,
-                    })}
+                    {...register(questionData.id.toString())}
                   />
                   <label
                     htmlFor={`${questionData.id}-no`}

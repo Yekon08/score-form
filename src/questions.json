@@ -136,5 +136,1064 @@
       "question": "Avez-vous fait une analyse biologique et êtes-vous en déficit de vitamine D ?",
       "isAnOpenQuestion": false
     }
+  ],
+  "Méthylation B9, B12, choline": [
+    {
+      "id": 27,
+      "question": "etes-vous végétalienvégétarienflexitarien ou consommez-vous peu de viande etou de produi ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 28,
+      "question": "Prenez-vous ou avez-vous pris une pilule contraceptive ?",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Mitochondrie": [
+    {
+      "id": 29,
+      "question": "Ressentez-vous beaucoup de fatigue due à votre travail et à vos voyages ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 30,
+      "question": "Avez-vous un syndrome de fatigue chronique (durée supérieure à 6 mois et aggravation des symptômes à l'effort) et/ou une fibromyalgie ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 31,
+      "question": "Avez-vous une fatigue persistante post-infectieuse (Covid-19, herpès, mononucléose (EBV), candidose, CMV, hépatites virales, etc.) ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 32,
+      "question": "Avez-vous une maladie chronique : diabète de type 2, athérosclérose, maladie neurodégénérative, neurovasculaire (migraine), auto-immune ?",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Équilibre Rédox": [
+    {
+      "id": 33,
+      "question": "Je consomme plus d'un quart de mon alimentation sous forme ultra-transformée (AUT).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 34,
+      "question": "Je consomme régulièrement des produits fumés, torréfiés (café), grillés ou avec un brunissement fort (barbecue, toaster, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 35,
+      "question": "Je fume, j’ai un traitement longue durée, j’exerce un métier avec une exposition physico-chimique.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 36,
+      "question": "J’ai une maladie auto-immune, un diabète, une maladie ou atteinte neurodégénérative ou neuropathique.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 37,
+      "question": "J’ai ou j’ai eu une thyroïdite et/ou une infertilité (baisse de qualité du sperme, insuffisance ovarienne précoce).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 38,
+      "question": "Je souffre d’athérosclérose.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "SIGNALISATION LIPIDIQUE": [
+    {
+      "id": 39,
+      "question": "Je mange peu ou pas de poisson gras (sardine, maquereau, hareng, saumon) (moins de 2 fois par semaine).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 40,
+      "question": "Je consomme peu ou pas d'huile de colza ou de noix (moins de 2 cuillères à soupe par jour) ou d'huile de lin ou de cameline (moins de 1 cuillère à café par jour) ou de noix de Grenoble (moins de 3 à 4 noix par jour).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 41,
+      "question": "Je cuisine sans gras ou uniquement avec des produits allégés.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 42,
+      "question": "Je consomme peu ou pas d’huile d’olive, d’avocat ou de la graisse de canard (moins de 3 fois par semaine).",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "ACIDOSE MÉTABOLIQUE DE BAS GRADE": [
+    {
+      "id": 43,
+      "question": "Je mange peu ou pas de légumes et de fruits.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 44,
+      "question": "Je ne consomme pas de produits laitiers.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 45,
+      "question": "Je consomme régulièrement des aliments contenant des phosphates ajoutés (additif) : soda, charcuterie, surimi, plats préparés, fast-food, fromage industriel, lait en poudre ou concentré, certains compléments alimentaires, etc.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 46,
+      "question": "Je suis sédentaire ou je pratique une activité physique exclusivement en intérieur ou une activité physique intense.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 47,
+      "question": "J'ai des troubles neuromusculaires : spasme, tendinite, tendinopathie, crampe.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 48,
+      "question": "J'ai des troubles liés à une déminéralisation : arthrose, ostéopénie, ostéoporose, récession gingivale (gencives qui se rétractent), perte de qualité des phanères (ongles, cheveux).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 49,
+      "question": "Je saigne des gencives ou j'ai des gingivites à répétition.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 50,
+      "question": "Je fais des calculs rénaux et/ou j’ai un excès d’acide urique.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 51,
+      "question": "Je fais de la rétention d’eau.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Interface Hépatique": [
+    {
+      "id": 52,
+      "question": "Je suis exposé.e régulièrement aux produits chimiques (peintures, produits ménagers, industrie chimique, fleuriste, coiffeur, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 53,
+      "question": "Je me réveille en deuxième partie de nuit, entre 2 et 4 h du matin.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 54,
+      "question": "J’ai la langue pâteuse et/ou l’haleine chargée.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 55,
+      "question": "J’ai des difficultés à digérer les repas lourds ou gras (dyspepsie, éructations, ballonnements, diarrhée, stéatorrhée, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 56,
+      "question": "Je suis sensible aux odeurs surtout le matin au réveil et/ou facilement nauséeux.se.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 57,
+      "question": "J’ai des difficultés à supporter l’alcool (maux de tête, troubles fonctionnels intestinaux, ébriété, rougissement, bouffées vasomotrices, nausées, vomissement, hypersudation, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 58,
+      "question": "J’ai régulièrement des maux de tête ou des migraines.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 59,
+      "question": "J’ai des problèmes de peau ou de cuir chevelu (acné, rougeurs, eczéma, pellicules, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 60,
+      "question": "J’ai une insuffisance veineuse, régulièrement des hémorroïdes ou je marque facilement (ecchymoses).",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Acides Biliaires": [
+    {
+      "id": 61,
+      "question": "Mes selles sont décolorées et/ou grasses.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 62,
+      "question": "J'ai une alternance diarrhée/constipation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 63,
+      "question": "J’ai des difficultés à digérer les repas gras (inconfort, dyspepsie, éructations, diarrhée, stéatorrhée, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 64,
+      "question": "J'ai des démangeaisons cutanées (paumes des mains, dessous des pieds, bas-ventre ou autre).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 65,
+      "question": "J'ai des xanthomes (boules blanches périoculaires).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 66,
+      "question": "Je souffre de sécheresse oculaire et/ou buccale et/ou d'ostéoporose ou d'ostéopénie et/ou je saigne facilement.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 67,
+      "question": "Je présente un jaunissement de la peau et/ou du blanc des yeux et/ou mes urines sont foncées et/ou ma bilirubine est élevée.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Interface digestive": [
+    {
+      "id": 68,
+      "question": "J’ai des ballonnements.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 69,
+      "question": "J'ai des gaz malodorants.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 70,
+      "question": "J'ai des gaz sonores.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 71,
+      "question": "J’ai de la diarrhée.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 72,
+      "question": "J'ai de la constipation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 73,
+      "question": "J'ai une alternance diarrhée/constipation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 74,
+      "question": "J’ai des douleurs intestinales, des coliques ou des colites.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 75,
+      "question": "J’ai des brûlures d’estomac, des remontées acides et/ou des troubles fonctionnels gastroduodénaux (dyspepsie, troubles de renvoi d'air, nausées, vomissements).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 76,
+      "question": "J’ai des troubles immunitaires chroniques : allergies, allergies alimentaires, eczéma, peau atopique, mycoses, herpès, verrues (au niveau cutané, génital, buccal, etc.), dermite séborrhéique, infections ORL (rhume, otite, sinusite, etc.), infections dentaires, cystites.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Système nerveux": [
+    {
+      "id": 77,
+      "question": "Le matin, j’ai des difficultés à me lever, je suis fatigué.e au réveil, je fonctionne au ralenti.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 78,
+      "question": "J’ai moins de motivation, de projets, d’envies.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 79,
+      "question": "Ma libido est en baisse et/ou je suis une femme en aménorrhée ou avec des cycles irréguliers.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 80,
+      "question": "J’ai des difficultés à me concentrer et/ou à retenir les choses.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 81,
+      "question": "J’ai besoin de stimulants (thé, café, chocolat, maté, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 82,
+      "question": "Le soir, je suis agité.e, j’ai des fourmillements, j’ai besoin d’agiter mes pieds, de bouger mes jambes (syndrome des jambes sans repos).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 83,
+      "question": "Je suis catégorisé.e et/ou je prends un traitement contre les TDAH (trouble du déficit de l'attention avec ou sans hyperactivité).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 84,
+      "question": "Je souffre d’hyperprolactinémie.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Déficit en sérotonine": [
+    {
+      "id": 85,
+      "question": "Je suis irritable, colérique.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 86,
+      "question": "Je manque de patience, je démarre au quart de tour.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 87,
+      "question": "J’ai des pulsions sucrées à partir de 17h et/ou en soirée ou un besoin de compenser (grignotages, achats compulsifs, tabac, alcool, sport intensif, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 88,
+      "question": "J’ai facilement la 'larme à l’œil' et/ou j’ai du mal à prendre du recul par rapport aux choses.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 89,
+      "question": "J’ai des symptômes de déprime.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 90,
+      "question": "Je suis une femme et je souffre de syndrome prémenstruel.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 91,
+      "question": "Je prends ou j’ai pris des traitements antidépresseurs (ISRS).",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Déficit de modulation des récepteurs à GABA": [
+    {
+      "id": 92,
+      "question": "J’ai des difficultés à me détendre.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 93,
+      "question": "Je suis attiré.e par la prise d’un verre d’alcool le soir pour me détendre.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 94,
+      "question": "Je ressens une raideur dans mon corps, j’ai les muscles fréquemment contractés par exemple au niveau des trapèzes.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 95,
+      "question": "Je rumine, je cogite notamment le soir au coucher.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 96,
+      "question": "Je suis sujet aux attaques de panique, à l’anxiété et/ou aux angoisses.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 97,
+      "question": "Je suis une femme et je souffre de syndrome prémenstruel.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 98,
+      "question": "Je prends ou j'ai pris un traitement anxiolytique (benzodiazépines).",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Désynchronisation cortisol/mélatonine": [
+    {
+      "id": 99,
+      "question": "Je me sens très stressé.e, particulièrement en tension en ce moment.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 100,
+      "question": "J’ai l’impression de ne pas avoir de temps pour moi, je me sens surmené.e, j’assume trop de choses (vie professionnelle, familiale, soucis, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 101,
+      "question": "Je me sens dépassé.e par des tâches simples du quotidien.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 102,
+      "question": "J’ai des 'coups de pompe' en journée.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 103,
+      "question": "Il y a des jours où je me sens sans force, très fatigué.e.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 104,
+      "question": "Je prends du poids quand je stresse.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 105,
+      "question": "J’ai du mal à m’endormir et/ou je souffre de réveils précoces.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 106,
+      "question": "Je travaille en horaires postés (horaires décalés).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 107,
+      "question": "Je fais ou j’ai déjà fait un 'burn-out'.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "SYSTÈME NEUROVÉGÉTATIF (ÉQUILIBRE ORTHO/PARASYMPATHIQUE)": [
+    {
+      "id": 108,
+      "question": "Je présente des vertiges orthostatiques et/ou des malaises vagaux.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 109,
+      "question": "J'éprouve des oppressions thoraciques et/ou des palpitations cardiaques.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 110,
+      "question": "Je présente des anomalies pupillaires (myosis/mydriase).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 111,
+      "question": "Je ne supporte pas les fortes chaleurs ou le froid intense et/ou je présente une hyposudation ou une hypersudation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 112,
+      "question": "Je souffre d'incontinence fécale et/ou urinaire.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 113,
+      "question": "Je suis un jeune homme et je souffre de troubles de l'érection.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 114,
+      "question": "J'ai des troubles digestifs en cas de contrariété ou de stress.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 115,
+      "question": "J'ai les extrémités toujours froides et/ou un syndrome de Raynaud.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Profil des déficiences immunitaires": [
+    {
+      "id": 116,
+      "question": "Je suis malade tous les hivers ou je fais des infections à répétition (ORL, gynécologiques, buccales, etc.).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 117,
+      "question": "J’ai ou j’ai eu : mononucléose, herpès, candidose, maladie de Lyme, zona, hépatite virale, Covid-19.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "PROFIL DES INFLAMMATIONS DE BAS GRADE": [
+    {
+      "id": 118,
+      "question": "J’ai : douleurs chroniques, maladie chronique (obésité, diabète de type 2, stéatose hépatique), athérosclérose, troubles cardiovasculaires, troubles ostéo-musculo-articulaires ou neuromusculaires, trouble dépressif majeur, broncho-pneumopathie chronique obstructive (BPCO).",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "PROFIL DES AFFECTIONS AUTO-INFLAMMATOIRES ET MIXTES": [
+    {
+      "id": 119,
+      "question": "Je souffre de la maladie de Crohn, de rectocolite hémorragique (RCH), de goutte, de fièvre récurrente ou de syndrome de Behçet.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 120,
+      "question": "Je souffre de manifestations associées à une spondylarthropathie : douleurs articulaires, tendineuses, psoriasis, inflammation chronique de l'intestin, uvéite, etc.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "PROFIL DES AFFECTIONS AUTO-IMMUNES": [
+    {
+      "id": 121,
+      "question": "Je souffre d’une maladie diagnostiquée auto-immune : polyarthrite rhumatoïde, myasthénie, lupus érythémateux disséminé, thyroïdite de Hashimoto et de Basedow, sclérose en plaque, maladie cœliaque, vitiligo, Gougerot-Sjögren, etc.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "PROFIL DES HYPERSENSIBILITÉS ALLERGIQUES": [
+    {
+      "id": 122,
+      "question": "Je souffre d’allergies, rhinite allergique, asthme, dermatite atopique.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "Métabolisme du glucose": [
+    {
+      "id": 123,
+      "question": "J’ai facilement des 'coups de pompe' en milieu et/ou fin de matinée, ou dans les 2 heures qui suivent un repas ou une collation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 124,
+      "question": "J’ai besoin de consommer des produits sucrés dès le matin et plusieurs fois par jour.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 125,
+      "question": "Je peux difficilement sauter un repas ou le retarder sans ressentir la fatigue.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 126,
+      "question": "J'ai pris, en peu de temps, un ou plusieurs tours de taille (adiposité abdominale et/ou viscérale).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 127,
+      "question": "J’ai des antécédents familiaux de diabète (parents, grands-parents, frères et sœurs, etc.) ou j’ai fait un diabète gestationnel.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 128,
+      "question": "J’ai une hypothyroïdie ou j’ai un traitement à base de lévothyroxine.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "RALENTISSEMENT DE LA FONCTION THYROÏDIENNE": [
+    {
+      "id": 129,
+      "question": "Je ressens une fatigue surtout matinale.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 130,
+      "question": "Je prends du poids et/ou j’ai des difficultés à maigrir.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 131,
+      "question": "J’ai la peau et/ou les muqueuses très sèches et/ou ma peau est pâle et/ou orangée.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 132,
+      "question": "Mes cheveux et mes ongles sont secs et cassants et/ou mes cheveux sont clairsemés et fins.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 133,
+      "question": "J’ai une infiltration des tissus conjonctifs (paupières gonflées surtout le matin, ovale du visage, zone prétibiale), une voix rauque, je souffre de ronflements et/ou je souffre, ou j'ai souffert, d'un canal carpien.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 134,
+      "question": "Je suis constipé.e ou j’ai tendance à être constipé.e.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 135,
+      "question": "Je supporte mal le froid.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 136,
+      "question": "Il me manque le tiers externe du sourcil.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 137,
+      "question": "J’ai des irrégularités des cycles et/ou je souffre d’infertilité idiopathique.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 138,
+      "question": "Ma TSH est supérieure à 2,5 mUI/L.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "FEMME : CLIMAT D’HYPERŒSTROGÉNIE VRAIE ET/OU RELATIVE (manque de progestérone)": [
+    {
+      "id": 139,
+      "question": "J’ai des cycles irréguliers, courts ou trop longs (spanioménorrhée) ou je suis en aménorrhée.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 140,
+      "question": "Mes menstruations sont douloureuses (dysménorrhée) et/ou trop longues et/ou trop abondantes (ménorragie).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 141,
+      "question": "Mes seins sont sensibles et/ou douloureux (mastalgie) et/ou présentent des kystes (mastoses).",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 142,
+      "question": "Je souffre d’endométriose, de fibrome.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 143,
+      "question": "J'ai des troubles hépatiques et/ou biliaires.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "FEMME : AUTRES CLIMATS HORMONAUX": [
+    {
+      "id": 144,
+      "question": "Je souffre d’hyperprolactinémie.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 145,
+      "question": "Je souffre d’infertilité idiopathique, d'insuffisance ovarienne précoce, de dysovulation et/ou d'anovulation.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 146,
+      "question": "J’ai ou j’ai eu : SOPK, hirsutisme, acné hyper séborrhéique, perte de cheveux androgénique, spanioménorrhées.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 147,
+      "question": "Je souffre de sécheresse vaginale, bouffées vasomotrices, sueurs nocturnes.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 148,
+      "question": "Je n’ai plus de libido.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 149,
+      "question": "J’ai ou j’ai eu un cancer hormono-dépendant.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "HOMME : CLIMAT DU DALA (DÉFICIT ANDROGÉNIQUE LIÉ À L’ÂGE)": [
+    {
+      "id": 150,
+      "question": "Je souffre d’une dysfonction érectile et/ou de perte de libido.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 151,
+      "question": "Je n’ai plus d’érection matinale.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 152,
+      "question": "Je prends de la masse grasse et je perds de la masse musculaire.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "HOMME : AUTRES CLIMATS HORMONAUX": [
+    {
+      "id": 153,
+      "question": "J’ai une hypertrophie bénigne de la prostate.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 154,
+      "question": "Je suis en obésité viscérale, j’ai un tour de taille élevé.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 155,
+      "question": "Je présente une gynécomastie.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 156,
+      "question": "J’ai ou j’ai eu un cancer hormonodépendant.",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "FACTEURS EXTERNES GÉNÉRAUX (FACTEURS PSYCHO-SOCIO-COMPORTEMENTAUX)": [
+    {
+      "id": 157,
+      "question": "Je vis mon habitat comme une contrainte quotidienne (population, circulation, insécurité, beauté, bruits, climat etc.)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 158,
+      "question": "Mon milieu professionnel et/ou familial sont sources d’un important stress",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 159,
+      "question": "Je travaille plus de 50h par semaine ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 160,
+      "question": "Dormez-vous en moyenne moins de 6h par nuit en semaine et le week-end ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 161,
+      "question": "Je n’ai pas de vie sociale et/ou elle est source de contraintes",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 162,
+      "question": "Êtes-vous souvent en déplacement pour des affaires ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 163,
+      "question": "Je ressens beaucoup de fatigue due à mon travail et mes voyages",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 164,
+      "question": "Avez-vous des réunions ou des événements professionnels qui impliquent de manger à l'extérieur régulièrement ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 165,
+      "question": "Je ne pratique aucune activité physique et/ou je suis (ancien) athlète de haut niveau",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 166,
+      "question": "Je ne respecte pas / ou je n’ai pas respecté par le passé les rythmes biologiques de mon corps (travail posté, insomnies, non-respect des heures de repas, etc.)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 167,
+      "question": "Heure du coucher",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 168,
+      "question": "Heure d’endormissement",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 169,
+      "question": "Réveils nocturnes",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 170,
+      "question": "Heure de lever",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 171,
+      "question": "Je souffre d'apnée du sommeil",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 172,
+      "question": "Je souffre ou ai souffert d’un choc émotionnel majeur dans ma vie",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 173,
+      "question": "J’ai eu une enfance relativement difficile sur le plan émotionnel (traumas, abus sexuels, maltraitances, etc.)",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "FACTEURS PHYSICO-CHIMIQUES ET MICROBIOLOGIQUE": [
+    {
+      "id": 175,
+      "question": "Ma mère a pris durant ma vie fœtale (ou pendant l'allaitement) des médicaments, pratiquait une profession à risque ou résidait dans un environnement pollué (campagne, centre urbain ou industriel)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 176,
+      "question": "J’ai été exposé professionnellement à des substances chimiques ou ionisantes au cours de ma vie (coiffeur, fleuriste, ouvrier de l’industrie chimique, agriculteur, pressing, milieux hospitaliers, agent d’entretien, etc.) ou au tabagisme passif",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 177,
+      "question": "J’estime avoir été exposé de façon répétée ou durant une longue période à une charge médicamenteuse (interventions chirurgicales à répétition, traitements longue durée, contraceptif, hormonothérapie, AINS, benzodiazépines, antidépresseurs, etc.)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 178,
+      "question": "Je suis exposé à des ondes électromagnétiques près de chez moi, un trafic routier, une usine, un incinérateur, des traitements phytosanitaires de culture",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 179,
+      "question": "J'ai de nombreux amalgames dentaires et/ou j'ai fait des soins dentaires récemment et/ou j'ai des lisérés colorés au niveau gingival et/ou j'ai une coloration anormale des dents et/ou j'ai de nombreux tatouages colorés et/ou j'ai fait retirer au laser un tatouage",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 180,
+      "question": "Je souffre ou j’ai souffert d’une dépendance à une substance psychoactive (tabac, alcool, cannabis, opiacés, etc.)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 181,
+      "question": "Consommez-vous régulièrement (+ de 3 fois par semaine) des boissons alcoolisées en moyenne par semaine ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 182,
+      "question": "J’ai une alimentation peu variée notamment à base de céréales/pomme de terre (+/- fruits et légumes) et non issus de la filière bio ou raisonnée",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 183,
+      "question": "Je consomme plus de 25 % de produits ultra transformés par jour (céréales ou pains industriels, yaourts aux fruits, poêlée de légumes, viandes transformées ou fumées, margarines, barres aux céréales, boissons sucrées, collations salées, etc.)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 184,
+      "question": "Je prépare de façon quotidienne mes aliments dans des poêles à revêtement anti-adhésif et/ou je fais réchauffer mes plats dans des contenants en plastiques",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 185,
+      "question": "Mon habitation est mal aérée ou insuffisamment aérée et/ou humide et/ou présentant des moisissures",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 186,
+      "question": "J’ai fait des travaux dans ma maison en utilisant des produits non issus d’écolabels",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 187,
+      "question": "J’utilise régulièrement des solvants pour l’hygiène de ma maison, encens, aérosols, etc.",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 188,
+      "question": "J’utilise des cosmétiques et produits d’hygiène corporels non issus d’écolabels ou de produits naturels",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 189,
+      "question": "J'ai des problèmes bucco-dentaires (gingivites ou dents dévitalisées) ou de l'articulation temporo-mandibulaire",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 190,
+      "question": "Je vis, j’ai vécu ou j’ai effectué des séjours dans une région du monde considérée comme zone à risque infectieux ou j'ai des antécédents d'infections persistantes (herpès, mononucléose (EBV), hépatite virale, etc.) et/ou de Covid-19",
+      "isAnOpenQuestion": false
+    }
+  ],
+  "QUANTITÉS / FRÉQUENCES DE CONSOMMATION (par jour ou par semaine) ": [
+    {
+      "id": 191,
+      "question": "Cuisine : choix : plat préparé ou maison",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 192,
+      "question": "Mode de cuisson :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 193,
+      "question": "Régime spécifique : choix : végétarien, végétalien, sans gluten, sans lait d'origine animale",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 194,
+      "question": "Petit déjeuner (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 195,
+      "question": "Collation matinée (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 196,
+      "question": "Déjeuner (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 197,
+      "question": "Collation après-midi (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 198,
+      "question": "Diner (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 199,
+      "question": "Collation soirée (horaire) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 200,
+      "question": "Grignotez-vous régulièrement ?",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 201,
+      "question": "QUANTITÉS / FRÉQUENCES DE CONSOMMATION (par jour ou par semaine)",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 202,
+      "question": "Pain :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 203,
+      "question": "Céréales (riz, pâtes, semoule, quinoa, sarrasin, etc.) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 204,
+      "question": "Légumineuses (lentilles, pois, haricots, fèves) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 205,
+      "question": "Légumes racines (patate douce, pomme de terre, carotte, topinambour, igname, manioc, banane plantain, etc.) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 206,
+      "question": "Légumes :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 207,
+      "question": "Fruits :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 208,
+      "question": "Oléagineux, noix, chocolat noir >70% :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 209,
+      "question": "Épices, herbes aromatiques :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 210,
+      "question": "Soja (tofu, boisson, crème, dessert, yaourt, sauce) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 211,
+      "question": "Viande, poisson, œufs :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 212,
+      "question": "Charcuterie (pâté, saucisson, jambon sec ou blanc, etc.) :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 213,
+      "question": "Poisson gras :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 214,
+      "question": "Fromage :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 215,
+      "question": "Yaourts, fromage blanc, faisselle, petits suisses, skyr :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 216,
+      "question": "Lait :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 217,
+      "question": "Beurre :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 218,
+      "question": "Huile ou gras de cuisson :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 219,
+      "question": "Huile d’assaisonnement :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 220,
+      "question": "Sel :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 221,
+      "question": "Algues :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 222,
+      "question": "Cube, viandox, maggie :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 223,
+      "question": "Bonbons :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 224,
+      "question": "Gâteaux :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 225,
+      "question": "Soda, jus de fruits :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 226,
+      "question": "Eau, thé, café, chicorée :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 227,
+      "question": "Alcool :",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 228,
+      "question": "Défaut alimentaire :",
+      "isAnOpenQuestion": true
+    }
   ]
 }
