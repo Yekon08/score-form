@@ -1,0 +1,36 @@
+{
+  "Première partie": [
+    {
+      "id": 1,
+      "question": "name",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 2,
+      "question": "email",
+      "isAnOpenQuestion": true
+    },
+    {
+      "id": 3,
+      "question": "adresse",
+      "isAnOpenQuestion": true
+    }
+  ],
+  "Seconde partie": [
+    {
+      "id": 4,
+      "question": "question one part 2",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 5,
+      "question": "question two part 2",
+      "isAnOpenQuestion": false
+    },
+    {
+      "id": 6,
+      "question": "question three part 2",
+      "isAnOpenQuestion": false
+    }
+  ]
+}
